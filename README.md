@@ -10,7 +10,7 @@ A React card payment component with a validation **custom hook** and card flip a
 I have used the CSS in JS technique with **Styled Components**.
 
 ## Custom hook
-`useForm.js` is the custom hook, it takes as arguments a callback function (submit function) to execute if the second parameter, the function exported from `Validate.js` return an empty object. The hook export errors (if any), the values and some useful functions to format them.
+`useForm.js` is the custom hook, it takes as arguments a callback function (submit function) to execute if the second parameter, the function exported from `Validate.js` returns an empty object. The hook exports errors (if any), the values and some useful functions to format them.
 
 ## To do
 - [ ] Check type of card and show logo on card (ex. visa, mastercard...)
